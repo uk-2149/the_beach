@@ -341,6 +341,9 @@ figcaption > p {
     #email {
         font-size: 0.8em;
     }
+    .subsbtn {
+        width: 120px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
