@@ -343,6 +343,7 @@ figcaption > p {
     }
     .subsbtn {
         width: 120px;
+        padding: 1% 1%;
     }
 }
 
