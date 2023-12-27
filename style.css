@@ -292,7 +292,7 @@ figcaption > p {
     background-color: orangered;
     border-color: orangered;
     color: antiquewhite;
-    font-weight: bold;
+    font-weight: bolder;
     transition: transform;
     transition-duration: 600ms;
 }
@@ -331,13 +331,16 @@ figcaption > p {
         font-size: 1em;
     }
     .letter > h2 {
-       font-size: 1.5em;
+       font-size: 1.3em;
     }
     .inpu {
         transform: scale(0.8);
     }
     #email {
         font-size: 0.8em;
+    }
+    .subsbtn {
+        width: 120px;
     }
 }
 
