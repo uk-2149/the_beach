@@ -295,6 +295,7 @@ figcaption > p {
     font-weight: bolder;
     transition: transform;
     transition-duration: 600ms;
+    width: 125px;
 }
 
 .inpu:hover .subsbtn{
@@ -331,16 +332,14 @@ figcaption > p {
         font-size: 1em;
     }
     .letter > h2 {
-       font-size: 1.3em;
+       font-size: 1.15em;
+        letter-spacing: 0.05ch; 
     }
     .inpu {
         transform: scale(0.8);
     }
     #email {
         font-size: 0.8em;
-    }
-    .subsbtn {
-        width: 120px;
     }
 }
 
