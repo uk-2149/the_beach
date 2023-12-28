@@ -600,7 +600,7 @@ figcaption > p {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        row-gap: 30px;
+        row-gap: 27px;
         column-gap: 0px;
         margin-top: 90px;
     }
@@ -617,9 +617,6 @@ figcaption > p {
     }
     .feet > li {
         font-size: 0.8em;
-    }
-    .feet > h3 {
-        font-size: 0.9em;
     }
     .footer_links > li {
         line-height: 11px;
