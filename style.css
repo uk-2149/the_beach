@@ -277,6 +277,9 @@ figcaption > p {
     text-align: center;
     margin-top: 20px;
     min-width: 220px;
+    transform: translateX(10px);
+    transition: transform;
+    transition-duration: 600ms;
 }
 
 .letter > h2 {
@@ -288,7 +291,7 @@ figcaption > p {
     height: 52px;
     border-radius: 10px;
     padding: 1% 1.5%;
-    transform: translateX(-20px);
+    transform: translateX(-10px);
     background-color: orangered;
     border-color: orangered;
     color: antiquewhite;
@@ -299,6 +302,10 @@ figcaption > p {
 }
 
 .inpu:hover .subsbtn{
+    transform: translateX(0);
+}
+
+.inpu:hover #email {
     transform: translateX(0);
 }
 
@@ -390,5 +397,26 @@ figcaption > p {
     }
     .new2 {
         margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #email {
+        min-width: 150px;
+        height: 35px;
+    }
+    #email::placeholder {
+        font-size: 0.76em;
+    }
+    .subsbtn {
+        width: 80px;
+        padding: 1% 1%;
+        height: 35px;
+        font-size: 0.7em;
+        font-weight: 700;
+    }
+    .inpu {
+        display: inline;
+        transform: scale(0.7);
     }
 }
