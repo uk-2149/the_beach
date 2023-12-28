@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Nunito:wght@500&family=Outfit&family=PT+Serif:wght@400;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Nunito:wght@500&family=Open+Sans&family=Outfit&family=PT+Serif:wght@400;700&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -299,6 +299,7 @@ figcaption > p {
     transition: transform;
     transition-duration: 600ms;
     width: 125px;
+    cursor: pointer;
 }
 
 .inpu:hover .subsbtn{
@@ -307,6 +308,148 @@ figcaption > p {
 
 .inpu:hover #email {
     transform: translateX(0);
+}
+
+.footer {
+    background-color: rgb(221, 216, 216);
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    height: fit-content;
+    color: #101012;
+    padding-bottom: 5px;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 1fr 1fr 1fr;
+    column-gap: 8px;
+    margin-right: 3%;
+}
+
+.feetconts_1 {
+    margin-top: 75px;
+    margin-left: 20%;
+}
+
+.feetconts_1 > h3 {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.feetconts_1 > p {
+    font-size: 0.85em;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    transform: translateX(-2px);
+}
+
+.feetconts_1 > button {
+    padding: 8px 16px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 30px;
+    background-color: #101012;
+    color: aliceblue;
+    border: none;
+    transform: translateX(-2px);
+    transition: transform, font-size;
+    transition-duration: 600ms;
+    cursor: pointer;
+}
+
+.feetconts_1 > button:hover {
+    transform: scale(0.98);
+    font-size: 0.8em;
+}
+
+.feetconts_2 {
+    margin-top: 75px;
+}
+
+.feetconts_2 > h3 {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.footer_links {
+    margin-top: 30px;
+}
+
+.footer_links > li {
+    list-style: none;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.footer_links > li > a {
+    text-decoration: none;
+    color: #101012;
+    font-size: 0.95em;
+}
+
+.footer_links > li:hover {
+    text-decoration: underline;
+}
+
+.icon_div {
+    margin-top: 150px;
+    margin-left: -20px;
+}
+
+.icons {
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+.icon_div a {
+    text-decoration: none;
+    color: #101012;
+}
+
+.icons:hover {
+    color: rgb(138, 176, 203);
+}
+
+.line {
+    width: 96%;
+    background-color: rgb(203, 203, 203);
+    height: 2px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.underlink {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.underlink > p {
+    margin-left: 30px;
+    font-size: 0.9em;
+}
+
+.underlink > ul {
+     float: right;
+     list-style: none;
+     margin-right: 30px;
+     margin-top: -20px;
+}
+
+.underlink > ul > li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 0.9em;
+}
+
+.underlink > ul > li > a {
+    display: inline;
+    margin-left: 20px;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #101012;
+}
+
+.underlink > ul > li > a:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {
@@ -373,11 +516,38 @@ figcaption > p {
         height: fit-content;
         padding: 200px 0;
     }
+    .links {
+        grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    }
+    .feetconts_1 {
+        margin-left: 10%;
+    }
+    .joinbutton {
+        transform: scale(0.8);
+        font-size: 10px;
+        padding: 6px 12px;
+        border-radius: 22px;
+    }
+    .footer_links > li {
+        line-height: 18px;
+    }
 }
 
 @media screen and (max-height: 800px) {
     figcaption > p {
         padding-bottom: 35px;
+    }
+    .footer {
+        font-size: 0.6em;
+    }
+    .footer > h3 {
+        font-size: 0.3em !important;
+    }
+    .joinbutton {
+        transform: scale(0.1);
+    }
+    .underlink > ul {
+        margin-top: -14px;
     }
 }
 
@@ -420,3 +590,29 @@ figcaption > p {
         transform: scale(0.7);
     }
 }
+
+ @media screen and (max-width: 460px) {
+    .icons {
+        margin-left: 5px;
+    }
+    .icon_div {
+        margin-left: -5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 0px;
+        margin-top: 80px;
+    }
+    .underlink > ul {
+        margin-right: 4px;
+    }
+    .underlink > ul > li {
+        margin-left: 5px;
+        font-size: 0.8em;
+    }
+    .underlink > p {
+        margin-left: 4px;
+        font-size: 0.8em;
+    }
+ }
