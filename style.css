@@ -471,9 +471,6 @@ figcaption > p {
         width: 120px;
         padding: 1% 1%;
     }
-    .feetconts_1, .feetconts_2 {
-        font-size: 0.8em;
-    }
 }
 
 @media screen and (max-width: 1024px) {
