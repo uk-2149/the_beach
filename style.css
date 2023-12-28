@@ -615,8 +615,11 @@ figcaption > p {
         margin-left: 4px;
         font-size: 0.8em;
     }
-    .feet {
+    .feet > li {
         font-size: 0.8em;
+    }
+    .feet > h3 {
+        font-size: 0.9em;
     }
     .footer_links > li {
         line-height: 11px;
