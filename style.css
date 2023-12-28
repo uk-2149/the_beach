@@ -400,7 +400,7 @@ figcaption > p {
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 371px) {
     #email {
         min-width: 150px;
         height: 35px;
