@@ -529,7 +529,7 @@ figcaption > p {
         border-radius: 22px;
     }
     .footer_links > li {
-        line-height: 18px;
+        line-height: 14px;
     }
 }
 
@@ -602,7 +602,7 @@ figcaption > p {
         grid-template-rows: 1fr 1fr;
         row-gap: 10px;
         column-gap: 0px;
-        margin-top: 80px;
+        margin-top: 120px;
     }
     .underlink > ul {
         margin-right: 4px;
@@ -614,5 +614,11 @@ figcaption > p {
     .underlink > p {
         margin-left: 4px;
         font-size: 0.8em;
+    }
+    .feet {
+        font-size: 0.8em;
+    }
+    .footer_links > li {
+        line-height: 11px;
     }
  }
