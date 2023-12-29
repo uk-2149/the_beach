@@ -474,6 +474,13 @@ figcaption > p {
     .feetconts_1, .feetconts_2 {
         font-size: 0.8em;
     }
+    .footer_links > li {
+        line-height: 18px;
+        margin-top: 11px;
+    }
+    .icons_div {
+        margin-top: 180px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
