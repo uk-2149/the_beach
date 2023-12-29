@@ -628,4 +628,7 @@ figcaption > p {
     .footer_links > li {
         line-height: 11px;
     }
+     br {
+         display: none;
+     }
  }
