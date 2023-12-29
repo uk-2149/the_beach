@@ -413,13 +413,13 @@ figcaption > p {
 .underlink > ul > li {
     display: inline;
     margin-left: 20px;
-    font-size: /*1em*/1.3em;
+    font-size: 1em;
 }
 
 .underlink > ul > li > a {
     display: inline;
     margin-left: 20px;
-    font-size: /*1em*/1.3em;
+    font-size: 1em;
     text-decoration: none;
     color: #101012;
 }
