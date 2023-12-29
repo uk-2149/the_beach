@@ -308,12 +308,12 @@ figcaption > p {
 }
 
 .feetconts_1 > h3 {
-    font-size: 1.8em;
+    font-size: /*1.8em*/2.2em;
     font-weight: 800;
 }
 
 .feetconts_1 > p {
-    font-size: 0.95em;
+    font-size: /*0.95em*/1.2em;
     margin-top: 25px;
     margin-bottom: 15px;
     transform: translateX(-2px);
@@ -342,7 +342,7 @@ figcaption > p {
 }
 
 .feetconts_2 > h3 {
-    font-size: 1.8em;
+    font-size: /*1.8em*/2.1em;
     font-weight: 800;
 }
 
@@ -359,7 +359,7 @@ figcaption > p {
 .footer_links > li > a {
     text-decoration: none;
     color: #101012;
-    font-size: 1em;
+    font-size: /*1em*/1.35em;
 }
 
 .footer_links > li:hover {
@@ -372,7 +372,7 @@ figcaption > p {
 }
 
 .icons {
-    font-size: 2.5em;
+    font-size: /*2.5em*/2.8em;
     margin-left: 20px;
 }
 
@@ -400,7 +400,7 @@ figcaption > p {
 
 .underlink > p {
     margin-left: 30px;
-    font-size: 1em;
+    font-size: /*1em*/1.3em;
 }
 
 .underlink > ul {
@@ -413,13 +413,13 @@ figcaption > p {
 .underlink > ul > li {
     display: inline;
     margin-left: 20px;
-    font-size: 1em;
+    font-size: /*1em*/1.3em;
 }
 
 .underlink > ul > li > a {
     display: inline;
     margin-left: 20px;
-    font-size: 1em;
+    font-size: /*1em*/1.3em;
     text-decoration: none;
     color: #101012;
 }
