@@ -400,7 +400,7 @@ figcaption > p {
 
 .underlink > p {
     margin-left: 30px;
-    font-size: /*1em*/1.3em;
+    font-size: 1em;
 }
 
 .underlink > ul {
@@ -563,6 +563,17 @@ figcaption > p {
     }
     .new2 {
         margin-top: 90px;
+    }
+    /*000*/
+    .feetconts_1, .feetconts_2 {
+        font-size: 0.85em;
+    }
+    .footer_links > li {
+        line-height: 18px;
+        margin-top: 11px;
+    }
+    .icons_div {
+        margin-top: 180px;
     }
 }
 
