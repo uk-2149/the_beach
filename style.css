@@ -428,6 +428,16 @@ figcaption > p {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 720px) {
+    .footer_links > li {
+        line-height: 18px;
+        margin-top: 11px;
+    }
+    .icons_div {
+        margin-top: 180px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .hero > h1 {
         font-size: 3.5em;
